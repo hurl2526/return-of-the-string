@@ -38,7 +38,19 @@ function twoCharacters(word, x, y){
 const result3 = twoCharacters('hello', 3, 4)
 result3;
 
+function yeller(weird){
+  return weird.toUpperCase() + '!!!';
+}
+const result4 = yeller('hello')
+result4;
 
+function initials(entername){
+  const indexOfSpace = 0;
+
+  return entername[0]+ '.' + entername[entername.indexOf(' ') + 1]+ '.';
+}
+const result5 = initials('Patrick Hurley')
+result5;
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
